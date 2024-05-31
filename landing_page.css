@@ -1,0 +1,204 @@
+body{
+    padding-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    background: linear-gradient(122deg, rgb(250, 85, 96) 0%,rgb(177, 75, 244) 50%, rgb(77, 145, 255) 100%) ;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+}
+.brandlogo{
+    height: 70px;
+    width: 80px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.left button,.right button{
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.left,.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 36%;
+}
+.left :hover,.right  :hover{
+    border: 1px solid white;
+}
+.left{
+    margin-left: 10px;
+}
+.right{
+    margin-right: 10px;
+}
+.startlogo{
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    position: relative;
+}
+.imgtxt1{
+    position: absolute;
+    top: 150px;
+    left: 45px;
+    font-size: 40px;  
+}
+.imgtxt2{
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    font-size: 25px;
+}
+.insta{
+    position: absolute;
+    top: 101px;
+    right: 70px;
+    cursor: pointer;
+}
+.fb{
+    position: absolute;
+    top: 98px;
+    cursor: pointer;
+    right: 20px;
+}
+.title,.title1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.content{
+    line-height: 35px;
+    font-size: 18px;
+}
+.intro{
+    margin-top: 30px;
+    display: flex;
+ 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.intromatter{
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.introimg img{
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    
+}
+.title1{
+    text-align: center;
+}
+.aboutus{
+    margin-top: 100px;
+}
+.content1{
+    line-height: 35px;
+    margin: 20px auto;
+    width: 800px;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+}
+.holidays{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.holytxt{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    height: max-content;
+    margin-top: 150px;
+}
+.holyimg img{
+    width: 600px;
+    height: 500px;
+    object-fit: contain;
+}
+.tours{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 40px;
+}
+.tours img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.places{
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.days{
+    color: gray;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.book{
+    margin: 50px auto;
+    box-shadow: 0px 2px 2px rgb(178, 190, 186);
+    border: none;
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    padding: 15px 35px;
+    border-radius: 5px;
+    background: linear-gradient(122deg, rgb(250, 85, 96) 0%,rgb(177, 75, 244) 50%, rgb(77, 145, 255) 100%);
+}
+.book:active{
+    transform: translateY(1px);
+}
+.foot{
+    background-color:  rgb(32, 32, 32);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 50px;
+    height: 300px;
+    padding-top: 20px;
+}
+.foot div{
+    cursor: pointer;
+}
+.sidehead{
+    font-weight: bold;
+    font-size: 15px;
+}
+.copyright{
+    background-color: rgb(24, 24, 24);
+    color: gray;
+    margin-bottom: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
